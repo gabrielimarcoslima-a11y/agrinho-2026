@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrinho 2026 | Futuro Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <header class="hero">
+        <nav>
+            <div class="logo">AGRINHO <span>2026</span></div>
+        </nav>
+        <div class="hero-content">
+            <h1>Raízes Fortes, <br><span>Tecnologia Verde.</span></h1>
+            <p>O equilíbrio perfeito entre a potência da produção e a proteção do nosso planeta.</p>
+            <a href="#sobre" class="btn-principal">Conheça o Futuro</a>
+        </div>
+    </header>
+
+    <main>
+        <section id="sobre" class="container">
+            <h2 class="titulo-sessao">O Agro que Alimenta e Preserva</h2>
+            <div class="grid-sobre">
+                <div class="texto-sobre">
+                    <p>No <strong>Agrinho 2026</strong>, mostramos que a agricultura moderna não é inimiga da natureza. Pelo contrário: ela é sua maior aliada. Através da inovação, conseguimos produzir mais utilizando menos recursos, garantindo alimento na mesa e florestas de pé.</p>
+                </div>
+                <div class="imagem-placeholder">
+                    <img src="https://images.unsplash.com/photo-1625246333195-78d9c38ad449?auto=format&fit=crop&w=800&q=80" alt="Tecnologia no campo">
+                </div>
+            </div>
+        </section>
+
+        <section class="pilares">
+            <div class="container">
+                <h2 class="titulo-sessao light">Nossos Compromissos</h2>
+                <div class="cards-grid">
+                    <div class="card" onclick="revelarDica(1)">
+                        <i class="fas fa-microchip"></i>
+                        <h3>Inovação Digital</h3>
+                        <p>Drones e sensores que reduzem o desperdício de água e defensivos.</p>
+                    </div>
+                    <div class="card" onclick="revelarDica(2)">
+                        <i class="fas fa-leaf"></i>
+                        <h3>Biodiversidade</h3>
+                        <p>Preservação de matas ciliares e corredores ecológicos entre as safras.</p>
+                    </div>
+                    <div class="card" onclick="revelarDica(3)">
+                        <i class="fas fa-recycle"></i>
+                        <h3>Ciclo Fechado</h3>
+                        <p>Transformação de resíduos orgânicos em energia e adubo natural.</p>
+                    </div>
+                </div>
+                <div id="painel-info" class="painel-oculto">
+                    <p id="texto-dinamico">Clique em um card para saber mais!</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Projeto Agrinho - Educação e Sustentabilidade</p>
+        <div class="social">
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin"></i>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
